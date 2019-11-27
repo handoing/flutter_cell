@@ -64,6 +64,6 @@ class Example extends HookWidget {
 }
 ```
 
-## Example
+## Note
 
 flutter_cell is immature, only for learning.
