@@ -122,7 +122,7 @@ class TemplateParser extends StatelessWidget {
           );
           break;
         case "text":
-          return _parseSingleChildNode(node.nodes);
+          return Text(node.text);
           break;
         case "icon":
           return Icon(parseIcon(node.attributes['type']));
